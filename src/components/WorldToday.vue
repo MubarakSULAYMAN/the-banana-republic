@@ -41,7 +41,7 @@ export default {};
 }
 
 .wrapper {
-  margin: auto 100px;
+  margin: 100px;
 }
 
 h1 {
