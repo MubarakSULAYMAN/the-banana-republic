@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+	/* --black: #000000; */
+	--black: #393f42;
+	/* --black-fade: #3b3b3b; */
+	--white: #ffffff;
+	--yellow: #ffe200;
+	--orange: #ff9100;
+	--gray: #aebccd;
+	/* --gray2: #b9c6d4; */
+	--gray-light: #f4f8f9;
+	--gray-lighter: #fcfcfd;
+	--teal: #00f1c5;
+
+	/* Text Sizes*/
+	/* --text-xxs: 8px; */
+	--text-xs: 10px;
+	--text-sm: 12px;
+	--text-normal: 14px;
+	--text-md: 20px;
+	--text-lg: 24px;
+	--text-xl: 30px;
+	--text-xxl: 40px;
+}
+
+/* @media (prefers-color-scheme: dark)  {
+    --dark: var(--white);
+    --light: var(--black);
+} */
+
+[data-theme="dark"] {
+	--dark: var(--white);
+	--light: var(--black);
+}
+
+body,
+html {
+	scroll-behavior: smooth;
+	font-family: 'Poppins', sans-serif;
+	color: var(--black);
+	font-size: var(--text-normal);
+	font-style: normal;
+	font-weight: 400;
+	background-color: var(--white);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+*:focus:not(:focus-visible) {
+	outline: none;
+}
+
+*:focus:not(:-moz-focusring) {
+	outline: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	/* font-weight: 500; */
+	list-style-type: none;
+	line-height: 2;
+	/* list-style-position: inside; */
+}
+
+a {
+	/* width: calc(fit-content + 50px); */
+	text-decoration: none;
+	color: var(--black);
+}
+
+.bg-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Positioning */
+.sticky {
+	position: sticky;
+	position: -webkit-sticky;
+}
+
+/* Display */
+.inline-flex {
+	display: inline-flex;
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-col {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.grid {
+	display: grid;
+	gap: 0;
+	min-width: 0;
+	min-height: 0;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.overflow-none {
+	box-sizing: border-box;
+}
+
+/* Sizes */
+.w-full {
+	width: 100%;
+}
+
+.h-full {
+	height: 100%;
+}
+
+.w-screen {
+	width: 100vw;
+}
+
+.h-screen {
+	height: 100vh;
+}
+
+.w-99 {
+	width: 90vw;
+}
+
+.w-fit {
+	width: fit-content;
+	width: -moz-fit-content;
+	/* block-size: fit-content; */
+}
+
+.h-fit {
+	height: fit-content;
+	height: -moz-fit-content;
+	/* block-size: fit-content; */
+}
+
+.w-1p {
+	width: 25vw;
+}
+
+.w-3p {
+	width: 75vw;
+}
+
+/* Margins */
+.mt-auto {
+	margin-top: auto;
+}
+
+.ml-auto {
+	margin-left: auto;
+}
+
+.mr-1 {
+	margin-right: 0.25rem;
+}
+
+/* Fonts */
+
+/* Miscelleneous */
+.rounded-full {
+	border-radius: 50%;
+}
+
+.rounded-full {
+	border-radius: 100%;
+}
+
+.bg-black {
+	background-color: var(--black);
+}
+
+.overflow-x-none {
+	overflow: hidden;
+}
+
+.overflow-none {
+	overflow: hidden;
+}
+
+.overflow-y-auto {
+	overflow-y: auto;
+}
+
+.focus-none:focus {
+	outline: none;
+}
