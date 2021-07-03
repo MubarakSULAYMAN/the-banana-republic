@@ -279,6 +279,7 @@ span {
   border: 1px solid var(--orange);
   border-radius: 50%;
   background-color: var(--orange);
+  opacity: 0;
 }
 
 .input-area {
